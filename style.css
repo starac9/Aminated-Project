@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #320432;
+}
+
+.container {
+  /* margin-top: 2.5rem; */
+  display: flex;
+  margin-top: 5vh;
+  /* margin: auto; */
+  /* margin-left: 10vw; */
+}
+
+.box {
+  /* width: 400px; */
+  height: 700px;
+
+  background: linear-gradient(90deg, #161122 20px, transparent 1%) center,
+    linear-gradient(#161122 20px, transparent 1%) center, transparent;
+  background-size: 40px 40px;
+  height: 90vh;
+  width: 40vw;
+  z-index: 2;
+  /* position: absolute; */
+}
+
+.controller {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  padding-top: 200px;
+
+  animation: move 10s linear infinite;
+}
+
+.headphones {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  padding-top: 200px;
+
+  padding-right: 500px;
+
+  animation: move 10s linear infinite;
+  animation-delay: -3s;
+}
+
+.power {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  padding-top: 200px;
+
+  animation: move 10s linear infinite;
+  animation-delay: -6s;
+}
+
+.mobile {
+  /* margin-left: 525px; */
+  /* height: 700px;
+width: 350px; */
+  /* z-index: 1; */
+  height: 90vh;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-400px);
+  }
+  100% {
+    transform: translate(1300px);
+  }
+}
