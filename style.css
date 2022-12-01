@@ -5,15 +5,11 @@ body {
 }
 
 .container {
-  /* margin-top: 2.5rem; */
   display: flex;
   margin-top: 5vh;
-  /* margin: auto; */
-  /* margin-left: 10vw; */
 }
 
 .box {
-  /* width: 400px; */
   height: 700px;
 
   background: linear-gradient(90deg, #161122 20px, transparent 1%) center,
@@ -22,7 +18,6 @@ body {
   height: 90vh;
   width: 40vw;
   z-index: 2;
-  /* position: absolute; */
 }
 
 .controller {
@@ -57,10 +52,6 @@ body {
 }
 
 .mobile {
-  /* margin-left: 525px; */
-  /* height: 700px;
-width: 350px; */
-  /* z-index: 1; */
   height: 90vh;
 }
 
